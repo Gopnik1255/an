@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WhatsApp Alternative</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div id="app">
+
+        <h1>WhatsApp Alternative</h1>
+
+        <div id="auth">
+
+            <h2>Register</h2>
+
+            <input type="text" id="name" placeholder="Name" required>
+
+            <input type="password" id="password" placeholder="Password" required>
+
+            <input type="file" id="profile-pic" accept="image/*">
+
+            <button id="register-btn">Register</button>
+
+            <h2>Login</h2>
+
+            <input type="text" id="login-name" placeholder="Name" required>
+
+            <input type="password" id="login-password" placeholder="Password" required>
+
+            <button id="login-btn">Login</button>
+
+        </div>
+
+        <div id="chat" style="display:none;">
+
+            <h2>Chat</h2>
+
+            <div id="groups"></div>
+
+            <input type="text" id="group-name" placeholder="Group Name">
+
+            <button id="create-group-btn">Create Group</button>
+
+            <div id="messages"></div>
+
+            <input type="text" id="message" placeholder="Type a message">
+
+            <button id="send-btn">Send</button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
